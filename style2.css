@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(./images/dining.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: rgb(201, 185, 46);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 100%;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-size: 2rem;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li a {
+  color: rgb(201, 185, 46);
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.first {
+  width: 85%;
+  text-align: justify;
+  margin: 0 auto;
+
+  /* margin: 40px 85px; */
+}
+
+.first .flex h1 {
+  font-size: 60px;
+  padding-bottom: 0;
+}
+
+.first .flex p {
+  font-size: 1.5rem;
+}
+
+.first .flex li {
+  font-size: 1.5rem;
+}
+
+.first .flex strong {
+  color: #3e2093;
+  font-size: 20px;
+}
+
+.list ul {
+  color: #3e2093;
+  margin-left: 15px;
+}
+img {
+  border-radius: 50%;
+  float: right;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex > div {
+  flex: 1;
+}
